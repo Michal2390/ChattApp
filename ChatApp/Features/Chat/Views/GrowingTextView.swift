@@ -8,7 +8,6 @@
 import UIKit
 
 protocol GrowingTextViewDelegate: AnyObject {
-    //func heightDidChange(to height: CGFloat)
     func growingTextView(_ growingTextView: GrowingTextView, heightDidChangeTo height: CGFloat)
     
 }
